@@ -27,7 +27,9 @@
     "dev-doc": "cat ediphy && babel-node --presets es2015  doc/scripts/reactdocgenmd.js & node doc/scripts/importComponents.js &  webpack --config webpack.noserver.js & node doc/scripts/bringtodist.js & webpack-dev-server --open --progress --colors --config doc/webpack.doc.dev.js",
     "dev-only-doc": "cat ediphy && webpack-dev-server --open --progress --colors --config doc/webpack.doc.dev.js",
     "add-all": "git add .",
-    "create-plugin": "babel-node plugins/create_plugin.js "
+    "create-plugin": "babel-node plugins/create_plugin.js ",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "pre-commit": [
     "eslint",
@@ -213,6 +215,8 @@
     "stl-viewer": "^0.7.0",
     "typeface-source-sans-pro": "0.0.44",
     "typeface-ubuntu": "0.0.44",
-    "universal-cookie": "^2.1.5"
-  }
+    "universal-cookie": "^2.1.5",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
