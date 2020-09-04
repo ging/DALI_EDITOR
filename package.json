@@ -111,7 +111,7 @@
     "markdown-loader": "^2.0.1",
     "ncp": "^2.0.0",
     "node-dir": "^0.1.17",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "package-json-validator": "^0.6.2",
     "postcss-loader": "^3.0.0",
     "pre-commit": "^1.2.2",
