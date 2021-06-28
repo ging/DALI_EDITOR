@@ -178,7 +178,7 @@
     "material-design-icons-font": "^2.2.3",
     "moodlexml-to-json": "^1.0.1-beta",
     "pdfjs-dist": "2.0.305",
-    "prismjs": "^1.11.0",
+    "prismjs": "^1.24.0",
     "prop-types": "^15.6.0",
     "raw-loader": "0.5.1",
     "rc-color-picker": "^1.2.3",
